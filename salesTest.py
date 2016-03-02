@@ -9,7 +9,8 @@ comp1.getSales()
 comp1.setName('bugs bunny') #sets company name to bugs bunny
 print comp1.getName() #should print 'bugs bunny'
 
-comp2=Sales('marilyn',[1,1,1,1])
+comp2=Sales('marilyn')
+
 
 comp1.display() # should print bugs bunny \n 16
-comp2.display() # should print marilyn \n 4
+comp2.display() # should print marilyn \n 0
