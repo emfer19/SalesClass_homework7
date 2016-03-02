@@ -18,6 +18,8 @@ class Sales:
         i+=1
       except ValueError:
         print 'Enter a valid value'
+      except EOFError:
+	print 'Enter a value'
 
   def display(self):
     display=self._companyName+'\n'+str(sum(self._quarters))
